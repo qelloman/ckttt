@@ -1,0 +1,46 @@
+select * from isscc where title like '%ADC%' OR keywords like '%ADC%';
+
+
+* FOREIGN KEY
+create table paper_ref (
+    ieee_id INT, ref_id INT,
+    CONSTRAINT fk_ieee_id
+        FOREIGN KEY (ieee_id)
+        REFERENCES paper_info (ieee_id)
+);
+
+* Successful paper_node query 
+with recursive paper_node as (
+select ieee_id, title, year, 0 as lv from paper_info where (title like '%LDO%' or keywords like '%LDO%') and year=2017
+union distinct
+select info.ieee_id, info.title, info.year, refresult.lv
+from
+(select ref.ref_id as ieee_id, sum(net.lv + 1) as lv
+from
+paper_ref as ref, paper_node as net
+where ref.ieee_id=net.ieee_id
+group by ref.ref_id) as refresult
+inner join paper_info as info
+on info.ieee_id = refresult.ieee_id)
+select year,count(*) from paper_node group by year order by year DESC;
+select * from paper_node order by year DESC;
+
+* Successful paper_edge query
+with recursive paper_edge as (
+select * from 
+(select ref.* from
+paper_ref as ref,
+(select ieee_id, title, year from paper_info info where (title like '%LDO%' or keywords like '%LDO%') and year=2017) as keyword_info
+where keyword_info.ieee_id = ref.ieee_id) as result
+where exists (select * from paper_info where result.ref_id = paper_info.ieee_id)
+union distinct
+select result.* from
+(select ref.*
+from
+paper_ref as ref, paper_edge as edge
+where ref.ieee_id=edge.ieee_id
+) as result
+where exists (select * from paper_info where result.ref_id = paper_info.ieee_id)
+)
+select * from paper_edge;
+

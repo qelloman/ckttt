@@ -1,0 +1,251 @@
+[
+   {
+       "doi": "10.1109/ISSCC.2017.7870234", 
+       "ieee_id": 7870234,
+       "author": [],
+       "title": "[Title page]", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["DC-DC power convertors", "DRAM chips", "analogue integrated circuits", "analogue-digital conversion", "biomedical electronics", "clocks", "digital phase locked loops", "driver circuits", "energy harvesting", "inductive power transmission", "low-power electronics", "microprocessor chips", "microwave isolators", "power amplifiers", "radio receivers", "radio transceivers", "radio transmitters", "sensors", "system-on-chip", "voltage regulators", "DC-DC converters", "DRAM", "MRAM", "SRAM", "analog techniques", "biomedical circuits", "clocking", "deep-learning processors", "digital PLL", "digital processors", "digital voltage regulators", "drivers", "energy harvesting", "frequency generation", "galvanic isolators", "gigahertz data converters", "high-performance transmitters", "hybrid analog-digital converters", "low-power techniques", "nonvolatile memory solutions", "power amplifiers", "processor-power management", "security circuits", "sensors", "smart SoC", "ultra-high-speed wireline", "wireless power", "wireless receivers", "wireless transceivers"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870235", 
+       "ieee_id": 7870235,
+       "author": [],
+       "title": "[Copyright notice]", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870236", 
+       "ieee_id": 7870236,
+       "author": [],
+       "title": "Table of contents", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870237", 
+       "ieee_id": 7870237,
+       "author": ["L. C. Fujino"],
+       "title": "Reflections", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870238", 
+       "ieee_id": 7870238,
+       "author": ["B. Murmann"],
+       "title": "Foreword: Intelligent Chips for a Smart World", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870239", 
+       "ieee_id": 7870239,
+       "author": ["A. Chandrakasan", "B. Murmann"],
+       "title": "Session 1 overview: Plenary Session", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870240", 
+       "ieee_id": 7870240,
+       "author": ["C. Hou"],
+       "title": "1.1 A smart design paradigm for smart chips", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["innovation management", "integrated circuit design", "product design", "3D circuit", "chip designers", "innovation requirements", "semiconductor ecosystems", "smart chip design", "smart chips", "smart design paradigm", "time-to-market windows", "FinFETs", "Industries", "Market research", "Metals", "Three-dimensional displays", "Ultraviolet sources"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870241", 
+       "ieee_id": 7870241,
+       "author": ["A. Bahai"],
+       "title": "1.2 Dynamics of exponentials in circuits and systems", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["CMOS integrated circuits", "Ge-Si alloys", "analogue circuits", "elemental semiconductors", "silicon", "CMOS device engineering", "CMOS scaling", "III-V materials", "Si", "Si photonics", "SiGe", "analog circuits", "automotive product areas", "differentiated manufacturing technology", "exponential dynamics", "high-performance SiGe devices", "industrial product areas", "integrated sensors", "medical product areas", "multidimensional innovations", "semiconductor devices", "timing references", "CMOS technology", "Consumer electronics", "Industries", "Manufacturing", "Market research", "Radio frequency", "Technological innovation"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870242", 
+       "ieee_id": 7870242,
+       "author": [],
+       "title": "ISSCC awards [16 awards]", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["Awards"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870243", 
+       "ieee_id": 7870243,
+       "author": ["J. Rothberg"],
+       "title": "1.3 The development of high-speed DNA sequencing: Jurassic Park, Neanderthal, Moore, and you", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["DNA", "genomics", "health care", "genetic makeup", "genomic-personalized medicine", "healthcare", "high-speed DNA sequencing", "life sciences", "Bioinformatics", "Chemicals", "DNA", "Genomics", "Life sciences", "Sequential analysis"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870244", 
+       "ieee_id": 7870244,
+       "author": ["L. Vandersypen", "A. van Leeuwenhoek"],
+       "title": "1.4 Quantum computing - the next challenge in circuit and system design", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["network synthesis", "quantum computing", "circuit design", "quantum bits", "quantum computers", "quantum computing", "quantum superposition state", "system design", "Computers", "Couplings", "Josephson junctions", "Logic gates", "Microwave circuits", "Quantum computing", "Quantum dots"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870245", 
+       "ieee_id": 7870245,
+       "author": ["K. Onizuka", "A. Komijani", "P. Wambacq"],
+       "title": "Session 2 overview: Power amplifiers", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870246", 
+       "ieee_id": 7870246,
+       "author": ["S. Hu", "F. Wang", "H. Wang"],
+       "title": "2.1 A 28GHz/37GHz/39GHz multiband linear Doherty power amplifier for 5G massive MIMO applications", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["5G mobile communication", "MIMO communication", "elemental semiconductors", "microwave power amplifiers", "millimetre wave power amplifiers", "modulators", "silicon", "5G massive MIMO applications", "Doherty power combiners", "MIMO systems", "Si", "battery life", "complex modulations", "current 2.1 A", "envelope tracking PA", "frequency 28 GHz", "frequency 37 GHz", "frequency 39 GHz", "high-precision supply modulators", "high-speed baseband computation", "high-speed supply modulators", "imperfect main-auxiliary PA cooperation", "massive multiple-input multiple-output architectures", "millimeter-wave fifth-generation systems", "multiband linear Doherty power amplifier", "silicon mm-wave Doherty PA", "spectrum-efficient modulations", "thermal management", "5G mobile communication", "Bandwidth", "Inductors", "MIMO", "Modulation", "Power amplifiers", "Power combiners"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870247", 
+       "ieee_id": 7870247,
+       "author": ["D. Chowdhury", "S. R. Mundlapudi", "A. Afsahi"],
+       "title": "2.2 A fully integrated reconfigurable wideband envelope-tracking SoC for high-bandwidth WLAN applications in a 28nm CMOS technology", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["CMOS digital integrated circuits", "frequency synthesizers", "radio transceivers", "reconfigurable architectures", "system-on-chip", "wireless LAN", "CMOS technology", "PAPR signals", "WLAN transceiver", "battery life enhancement", "continuous ET mode", "digital baseband", "fixed-supply mode", "frequency synthesizer", "fully integrated reconfigurable WLAN ET system", "fully integrated reconfigurable wideband envelope-tracking SoC", "high-bandwidth WLAN applications", "mobile communication devices", "peak-to-average power ratio", "seamless switching", "size 28 nm", "Modulation", "Peak to average power ratio", "Regulators", "Switches", "Wideband", "Wireless LAN"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870248", 
+       "ieee_id": 7870248,
+       "author": ["S. H. Yang", "Y. T. Lin", "Y. S. Ma", "H. W. Chen", "K. H. Chen", "C. L. Wey", "Y. H. Lin", "S. R. Lin", "T. Y. Tsai"],
+       "title": "2.3 A single-inductor dual-output converter with linear-amplifier-driven cross regulation for prioritized energy-distribution control of envelope-tracking supply modulator", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["4G mobile communication", "Long Term Evolution", "modulators", "power control", "radiofrequency amplifiers", "4G LTE mobile devices", "CR effect", "ETSM design", "PAPR", "RF signals", "RF-PA efficiency", "SIDO converter", "SIMO converters", "SWR", "average output power", "battery-powered ETSM", "cross-regulation effect", "efficiency 82 percent", "envelope information", "envelope-tracking supply modulator", "envelope-tracking technology", "hysteresis-controlled switching regulator", "linear amplifier", "linear-amplifier-driven cross regulation", "peak-to-average power ratio", "power efficiency", "prioritized energy-distribution control", "single-inductor dual-output converter", "single-inductor multiple-output converters", "supply voltage", "switching frequency", "Hysteresis", "Modulation", "Power amplifiers", "Power generation", "Regulators", "Steady-state", "Voltage control"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870249", 
+       "ieee_id": 7870249,
+       "author": ["X. Liu", "H. Zhang", "M. Zhao", "X. Chen", "P. K. T. Mok", "H. C. Luong"],
+       "title": "2.4 A 2.4V 23.9dBm 35.7%-PAE -32.1dBc-ACLR LTE-20MHz envelope-shaping-and-tracking system with a multiloop-controlled AC-coupling supply modulator and a mode-switching PA", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["CMOS integrated circuits", "Long Term Evolution", "modulators", "power amplifiers", "AC-coupling topology", "EER techniques", "LTE communication", "amplitude information", "dual-switching topology", "efficiency 35.7 percent", "envelope tracking", "envelope-elimination-and-restoration techniques", "frequency 20 MHz", "linear CMOS PA", "linear amplifier", "long-term-evolution communication", "low-cost integrated systems", "non-CMOS technologies", "peak-to-average power ratios", "power amplifiers", "supply modulator", "supply-modulator efficiency", "switching amplifier", "voltage 2.4 V", "Bandwidth", "Inductors", "Long Term Evolution", "Modulation", "Power amplifiers", "Switches", "Topology"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870250", 
+       "ieee_id": 7870250,
+       "author": ["J. Ko", "X. Guo", "C. Cao", "S. Rajapandian", "S. Peng", "J. Li", "W. Lee", "N. Baskaran", "C. Wang"],
+       "title": "2.5 A high-efficiency multiband Class-F power amplifier in 0.153 #x00B5;m bulk CMOS for WCDMA/LTE applications", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["CMOS analogue integrated circuits", "Long Term Evolution", "code division multiple access", "radiofrequency power amplifiers", "CMOS PAs", "GaAs", "bulk CMOS", "class-F PA", "high-efficiency multiband class-F power amplifier", "size 0.153 mum", "Capacitance", "Harmonic analysis", "Impedance matching", "Linearity", "Long Term Evolution", "Manganese", "Power amplifiers"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870251", 
+       "ieee_id": 7870251,
+       "author": ["J. Zhao", "E. Rahimi", "F. Svelto", "A. Mazzanti"],
+       "title": "2.6 A SiGe BiCMOS E-band power amplifier with 22% PAE at 18dBm OP1dB and 8.5% at 6dB back-off leveraging current clamping in a common-base stage", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["5G mobile communication", "BiCMOS analogue integrated circuits", "Ge-Si alloys", "Long Term Evolution", "clamps", "microwave power amplifiers", "picocellular radio", "quadrature amplitude modulation", "telecommunication power management", "5G cellular wireless backhaul", "BiCMOS E-band power amplifier", "LTE", "Long Term Evolution", "QAM modulations", "SiGe", "access networks", "back-off leveraging current clamping", "common-base stage", "picocell networks", "power efficiency", "power saving", "propagation-loss compensation", "silicon E-band PA", "small-cell networks", "spatial diversity", "spectral efficiency", "transmitter power amplifier", "BiCMOS integrated circuits", "Clamps", "Current measurement", "Impedance", "Power amplifiers", "Silicon germanium", "Transistors"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870252", 
+       "ieee_id": 7870252,
+       "author": ["S. Shakib", "M. Elkholy", "J. Dunworth", "V. Aparin", "K. Entesari"],
+       "title": "2.7 A wideband 28GHz power amplifier supporting 8 #x00D7;100MHz carrier aggregation for 5G in 40nm CMOS", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["5G mobile communication", "CMOS integrated circuits", "cellular radio", "microwave power amplifiers", "radiofrequency integrated circuits", "5G access points", "5G phased-array modules", "64-QAM signaling", "AP devices", "CMOS power amplifiers", "EVM specifications", "PAE", "RF bandwidth", "RFBW", "RFIC", "bandwidth 800 MHz", "broadband-cellular-data providers", "error-vector-magnitude specifications", "fifth generation mm-wave technology", "frequency 28 GHz", "low-cost CMOS technology", "power added efficiency", "size 40 nm", "user equipment", "5G mobile communication", "Linearity", "OFDM", "Power amplifiers", "Resonant frequency", "Wideband"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870253", 
+       "ieee_id": 7870253,
+       "author": ["V. Vorapipat", "C. Levy", "P. Asbeck"],
+       "title": "2.8 A Class-G voltage-mode Doherty power amplifier", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["impedance matching", "switched capacitor networks", "256-QAM OFDM signal", "class-G voltage mode Doherty power amplifier", "efficiency enhancement technique", "high frequency mode transitions", "integrated matching network", "power supply voltage", "skipping window technique", "switched capacitor power amplifier technique", "Bandwidth", "Impedance", "Modulation", "Peak to average power ratio", "Power amplifiers", "Power generation", "Switches"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870254", 
+       "ieee_id": 7870254,
+       "author": ["T. Burd", "J. Myers", "B. G. Nam"],
+       "title": "Session 3 overview: Digital processors", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": []
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870255", 
+       "ieee_id": 7870255,
+       "author": ["C. Gonzalez", "E. Fluhr", "D. Dreps", "D. Hogenmiller", "R. Rao", "J. Paredes", "M. Floyd", "M. Sperling", "R. Kruse", "V. Ramadurai", "R. Nett", "S. Islam", "J. Pille", "D. Plass"],
+       "title": "3.1 POWER9 #x2122;: A processor family optimized for cognitive computing with 25Gb/s accelerator links and 16Gb/s PCIe Gen4", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["MOSFET circuits", "clock distribution networks", "cognitive systems", "integrated circuit interconnections", "microprocessor chips", "silicon-on-insulator", "PCIe Gen4", "POWER9™", "SOI FinFET technology", "accelerator links", "clock distribution", "cloud infrastructure", "cognitive computing", "connectable processors", "copper interconnect", "core thread counts", "digital logic", "flexible processors", "memory ports", "processor family", "scalable processors", "Bandwidth", "Clocks", "FinFETs", "Program processors", "Random access memory", "Resonant frequency", "Voltage control"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870256", 
+       "ieee_id": 7870256,
+       "author": ["T. Singh", "S. Rangarajan", "D. John", "C. Henrion", "S. Southard", "H. McIntyre", "A. Novak", "S. Kosonocky", "R. Jotwani", "A. Schaefer", "E. Chang", "J. Bell", "M. Co"],
+       "title": "3.2 Zen: A next-generation high-performance #x00D7;86 core", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["MOSFET circuits", "cache storage", "energy conservation", "frequency synthesizers", "low-power electronics", "microprocessor chips", "voltage regulators", "AMD next-generation core", "CCX", "DFS", "Global Foundries", "L1 data cache", "L1 instruction cache", "L2 cache", "L3 cache", "LDO voltage regulator", "Zen core complex unit", "desktop", "digital frequency synthesizer", "digital low drop-out voltage regulator", "energy-efficient LPP FinFET process", "mobile client applications", "size 14 nm", "size 44 mm", "size 7 mm", "Benchmark testing", "Clocks", "Electric breakdown", "Metals", "Next generation networking", "Power supplies", "Voltage control"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870257", 
+       "ieee_id": 7870257,
+       "author": ["D. Greenhill", "R. Ho", "D. Lewis", "H. Schmit", "K. H. Chan", "A. Tong", "S. Atsatt", "D. How", "P. McElheny", "K. Duwel", "J. Schulz", "D. Faulkner", "G. Iyer", "G. Chen", "H. K. Phoon", "H. W. Lim", "W. Y. Koay", "T. Garibay"],
+       "title": "3.3 A 14nm 1GHz FPGA with 2.5D transceiver integration", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["electronics packaging", "fabrics", "field programmable gate arrays", "microprocessor chips", "nanoelectronics", "transceivers", "2.5D packaging", "2.5D transceiver integration", "EMIB", "FPGA", "embedded interconnect bridges", "embedded software", "field programmable gate array", "frequency 1 GHz", "logic elements", "programmable fabric", "programmable fabric die", "secure device manager", "size 14 nm", "size 20 nm", "transceiver dice", "transceiver roadmap", "triple-modular redundant microprocessor-based SDM", "Clocks", "Fabrics", "Field programmable gate arrays", "Integrated circuit interconnections", "Routing", "Transceivers", "Transistors"]
+  }
+   ,
+   {
+       "doi": "10.1109/ISSCC.2017.7870258", 
+       "ieee_id": 7870258,
+       "author": ["H. Mair", "E. Wang", "A. Wang", "P. Kao", "Y. Tsai", "S. Gururajarao", "R. Lagerquist", "J. Son", "G. Gammie", "G. Lin", "A. Thippana", "K. Li", "M. Rahman", "W. Kuo", "D. Yen", "Y. C. Zhuang", "U. Fu", "H. W. Wang", "M. Peng", "C. Y. Wu", "T. Dosluoglu", "A. Gelman", "D. Dia", "G. Gurumurthy", "T. Hsieh", "W. Lin", "R. Tzeng", "J. Wu", "C. Wang", "U. Ko"],
+       "title": "3.4 A 10nm FinFET 2.8GHz tri-gear deca-core CPU complex with optimized power-delivery network for mobile SoC performance", 
+       "publication": "ISSCC", 
+       "year": 2017,
+       "keywords": ["MOS integrated circuits", "UHF integrated circuits", "logic design", "low-power electronics", "microprocessor chips", "performance evaluation", "power aware computing", "smart phones", "system-on-chip", "ARMv8a CPU", "Cortex-CA53", "FinFET tri-gear deca-core CPU complex", "HP cluster", "augmented reality", "circuit design", "die photograph", "frequency 2.8 GHz", "heterogeneous tri-cluster deca-core CPU complex", "high-performance cluster", "logic design", "low-power clusters", "mobile SoC performance", "optimal sustainable performance", "optimized power-delivery network", "power applications", "power-efficient ULP solution", "power-efficient out-of-order Cortex-A73 CPU", "size 10 nm", "smartphone applications", "ultra-low power clusters", "virtual reality", "Central Processing Unit", "Clocks", "Current measurement", "Monitoring", "Software", "Transistors", "Voltage measurement"]
+  }
+]

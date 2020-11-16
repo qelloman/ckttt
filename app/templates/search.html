@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Paper Search Results</title>
+
+        <style>
+        .node circle {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 3px;
+        }
+        .node text { font: 12px sans-serif; }
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 2px;
+        }
+        div.tooltip {   
+            position: absolute;         
+            text-align: center;         
+            width: 120px;                    
+            padding: 2px;               
+            font: 12px sans-serif;      
+            background: lightsteelblue; 
+            border: 0px;        
+            border-radius: 8px;         
+            pointer-events: none;           
+        }
+         .box {
+            width: 20%;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 35px;
+            border: 2px solid #fff;
+            border-radius: 20px/50px;
+            background-clip: padding-box;
+            text-align: center;
+          }
+          .button {
+            font-size: 1em;
+            padding: 10px;
+            color: #fff;
+            border: 2px solid orange;
+            border-radius: 20px/50px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+          }
+          .button:hover {
+            background: orange;
+          }
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: visible;
+            opacity: 1;
+          }
+          .overlay:target {
+            visibility: hidden;
+            opacity: 0;
+            display:none
+          }
+          .popup {
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 30%;
+            position: relative;
+            transition: all 5s ease-in-out;
+          }
+          .popup h2 {
+            margin-top: 0;
+            color: #333;
+            font-family: Tahoma, Arial, sans-serif;
+          }
+          .popup .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            transition: all 200ms;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+          }
+          .popup .close:hover {
+            color: orange;
+          }
+          .popup .content {
+            max-height: 30%;
+            overflow: auto;
+          }
+
+
+        </style>
+        <!-- load the d3.js library --> 
+        <script type="text/javascript" src="{{ url_for('static', filename = 'd3.v3.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename = 'layout.js') }}"></script>
+
+    </head>
+
+    <body>
+        <script type="text/javascript">
+        // Prepare SVG element to draw graph 
+        var margin = {top: 20, right: 120, bottom: 20, left: 120},
+            width = 1000 - margin.right - margin.left,
+            height = 1000 - margin.top - margin.bottom;
+        var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.right + margin.left)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        // Prepare div element to be used as popup menu 
+        var div = d3.select("body").append("div")   
+        .attr("class", "tooltip")               
+        .style("opacity", 0);
+
+        // Read JSON string from Flask
+        var paper_data = JSON.parse({{ data | tojson | safe }}); 
+        // Use layout.js to determine x and y of each node. 
+        var nodes = getNodes(paper_data, width, height);
+        // Draw nodes based on unique nodes data. 
+        var node = svg.selectAll("g.node")
+            .data(nodes, function(d) {  return d.id; });
+        
+        var i=0;
+        // Prepare diagonal function to be used for links 
+        var diagonal = d3.svg.diagonal()
+            .projection(function(d) { return [d.x, d.y]; });
+        
+        // Implement nodes by circles
+        // Register functions for events 
+        var nodeEnter = node.enter().append("g")
+            .attr("class", "node")
+            .attr("transform", function(d) { 
+                return "translate(" + d.x + "," + d.y + ")"; 
+            });
+        nodeEnter.append("circle")
+            .attr("r", 5)
+            .style("fill", function(d) {
+                console.log(d.publication_type);
+                if (d.publication_type === 1) {
+                    return "red";
+                } else if (d.publication_type === 2) {
+                    return "green";
+                } else {
+                    return "blue";
+                }
+            })
+            .on("mouseover", function(d) {      
+                div.transition()        
+                .duration(200)      
+                .style("opacity", .9);
+
+                d3.selectAll("path.link")
+                .style("stroke",function(o) {
+                     return o.source.id === d.id || o.target.id === d.id ? "red" : "#888888";
+                }); 
+            })      
+            .on("mousemove", function(d) {      
+                div.html(d.year + "<br/>"  + d.title)  
+                .style("left",(d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY) + "px");    
+            })                  
+            .on("mouseout", function(d) {       
+                div.transition()        
+                .duration(500)      
+                .style("opacity", 0);   
+                d3.selectAll("path.link")
+                .style("stroke",function(o) {
+                     return "#888888";
+                }); 
+            });
+        i=0;
+        // Produce links object which includes actual node for target and source pair.
+        var links  = getLinks(paper_data, nodes);
+        // Select and implement links.
+        var link = svg.selectAll("path.link")
+        .data(links, function(d) { return d.id || (d.id = ++i); });
+        link.enter().insert("path", "g")
+        .attr("class", "link")
+        .attr("d", diagonal);
+        </script>
+        <div class="box">
+            <a class="button" href="#">Let me Pop up</a>
+        </div> 
+
+        <div id="popup1" class="overlay">
+            <div class="popup" >
+                <h2>Here i am</h2>
+                <a class="close" href="#popup1">×</a>
+                <div class="content">
+                    Thank to pop me out of that button, but now i'm done so you can close this window.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

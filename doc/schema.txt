@@ -1,0 +1,31 @@
+ALTER DATABASE papers CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+
+create table paper_info (
+   id INT NOT NULL,
+   doi VARCHAR(30) DEFAULT "" NOT NULL,
+   author TEXT  NOT NULL,
+   title TEXT  NOT NULL,
+   publication TINYTEXT  NOT NULL,
+   publication_type TINYINT NOT NULL,
+   year INT,
+   keywords TEXT  NOT NULL,
+   abstract TEXT  NOT NULL,
+   PRIMARY KEY ( id )
+);
+
+create table paper_ref (
+    id INT,
+    ref_id INT,
+    CONSTRAINT fk_id
+    FOREIGN KEY (id)
+    REFERENCES paper_info (id)
+);
+
+ALTER TABLE paper_info CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE paper_ref CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+ALTER TABLE paper_info CHANGE author author TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE paper_info CHANGE title title TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE paper_info CHANGE keywords keywords TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+ALTER TABLE paper_info CHANGE abstract abstract TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
